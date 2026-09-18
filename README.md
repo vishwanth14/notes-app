@@ -2,9 +2,8 @@
 
 ## Student Details
 
-Name: Beereddy Vishwanth Reddy
-
-Student ID: 2026201024
+- Name: Beereddy Vishwanth Reddy
+- Student ID: 2026201024
 
 ## GitHub Repository
 
@@ -30,9 +29,9 @@ mongodb://localhost:27017/notes_db
 
 Open a terminal in the server directory:
 
-cd server
-npm install
-npm start
+- cd server
+- npm install
+- npm start
 
 Backend:
 
@@ -42,19 +41,19 @@ http://localhost:5000
 
 Open another terminal in the client directory:
 
-cd client
-npm install
-npm run dev
+- cd client
+- npm install
+- npm run dev
 
 Frontend:
 
-http://localhost:5173
+- http://localhost:5173
 
 ## REST API
 
-POST /api/notes
-GET /api/notes
-DELETE /api/notes/:id
+- POST /api/notes
+- GET /api/notes
+- DELETE /api/notes/:id
 
 ## Features
 
@@ -71,6 +70,6 @@ DELETE /api/notes/:id
 
 ## Screenshots
 
-screenshots/ui-preview-1.png
-screenshots/ui-preview-2.png
-screenshots/delete-action.png
+- screenshots/ui-preview-1.png
+- screenshots/ui-preview-2.png
+- screenshots/delete-action.png
