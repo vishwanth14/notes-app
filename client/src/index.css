@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    color: #222;
+}
+
+button {
+    cursor: pointer;
+}
+
+.app {
+    width: 90%;
+    max-width: 900px;
+    margin: 40px auto;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.note-form {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.note-form input,
+.note-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.note-form textarea {
+    height: 120px;
+    resize: vertical;
+}
+
+.note-form button {
+    padding: 10px 18px;
+    border: none;
+    border-radius: 6px;
+    background: #222;
+    color: white;
+}
+
+.notes-section {
+    margin-top: 30px;
+}
+
+.notes-list {
+    display: grid;
+    gap: 15px;
+}
+
+.note-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.note-card h3 {
+    margin-top: 0;
+}
+
+.note-card p {
+    white-space: pre-wrap;
+}
+
+.note-card small {
+    display: block;
+    margin: 15px 0;
+    color: #666;
+}
+
+.note-card button {
+    padding: 8px 14px;
+    border: none;
+    border-radius: 5px;
+    background: #c62828;
+    color: white;
+}
